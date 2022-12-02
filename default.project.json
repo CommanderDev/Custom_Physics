@@ -1,0 +1,77 @@
+{
+  "name": "House of Dragons",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "Shared": {
+        "$path": "src/Shared"
+      },
+      "Knit": {
+        "$path": "src/Knit"
+      },
+
+      "Assets": {
+        "$className": "Folder"
+      }
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+
+      "Assets": {
+        "$className": "Folder"
+      },
+      "GameAnalytics": {
+        "$path": "src/Misc/GameAnalytics"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      
+      "Server": {
+        "$path": "src/Server"
+      }
+    },
+
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+
+      "Client": {
+        "$path": "src/Client"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+
+        "PlayerModule": {
+          "$path": "src/Misc/PlayerModule"
+        },
+        "GameAnalyticsClient": {
+          "$path": "src/Misc/GameAnalyticsClient"
+        },
+        "PlayerScriptsLoader": {
+          "$path": "src/Misc/PlayerScriptsLoader.client.lua"
+        }
+      },
+
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+
+        "Animate": {
+          "$path": "src/Misc/BlankClientScript.client.lua"
+        },
+        "Sound": {
+          "$path": "src/Misc/BlankServerScript.server.lua"
+        }
+      }
+    }
+  }
+}

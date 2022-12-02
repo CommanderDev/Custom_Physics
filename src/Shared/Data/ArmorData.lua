@@ -1,0 +1,7 @@
+return {
+    Armor = {
+        {
+            Name = "TestArmor";
+        }
+    }
+}
